@@ -1,0 +1,189 @@
+There are 4 to define a variable :-
+using var
+using let
+using const
+using nothing
+
+var - (1995 to 2015)
+let , const were added to js in (2015)
+
+------------------------------------------
+
+let -> if you think that the value may change in change
+let variable cannot be redecleared .
+eg -
+let x = "john";
+let x = 5;     ---------- X
+
+let variable has block scope;
+variable decleared inside a { } block cannot be accessed
+from outside the block .
+
+--------------------------------------------
+
+const-
+1. Where the value is fixed there use const - 
+pie = 3.14
+
+2. Const variable cannot be redecleared;
+
+3. Const variable has block scope;
+
+4.Variable decleared inside a { } block cannot be accessed from 
+  outside the block .
+
+---------------------------------------------
+
+Arithmatics Operator :-
+
++ -> addition
+
+- -> subtraction
+
+* -> multiplication
+
+/ -> division
+
+** -> exponentiation
+
+% -> modules
+
+++ -> increment - post(after) and 
+pre(before)
+
+-- -> decrement
+
+-------------------------------------------
+
+Comparison Operator
+
+== is equal to operator
+
+!= not equal to operator
+
+< greater than
+
+> smaller than
+
+>= greater than equal to
+
+<= smaller than equal to
+
+---------------------------------------
+
+Logical Operator
+
+and - &&
+
+or - ||
+
+If and else
+
+-------------------------------------
+
+If (condition){
+  // block of the code that is 
+     going to execute
+} else {
+  // block of the code that is 
+     going to execute
+}
+
+--------------------------------------
+
+If (condition 1){
+  // block of the code that is 
+     going to execute
+     
+} elseif(condition 2) {
+  // block of the code that is 
+     going to execute
+}
+
+----------------------------------------
+
+var date = naw date.getDay();
+
+switch(new Date().getDay()){
+
+  case 1 :
+      //code
+        break;
+  case 2 :
+      //code
+        break;
+  case 3 :
+      //code
+        break;
+  default:
+      //code
+}
+
+--------------------------------------------
+
+Loops
+
+Kinds of Loops :-
+-------------
+
+for
+for/in
+for/of
+while
+do/while
+
+--------------------------------------
+
+for(statement1; statement2; statement3){
+  //code
+}
+statement 1 -> is executed (one time) 
+before executing the code.
+
+statement 2 -> condition for which the code will run.
+
+statement 3 -> is executed (every time) after the code
+block has been executed.
+
+eg
+
+for(a = 1; a < 11; a++){
+            document.write(a + ",")
+        }
+        
+--------------------------------------
+
+Array - An array is a special vzriable which can hold more than one value .
+
+const names = [
+  "sachin",
+  "deepak",
+  "virat",
+  "hitarth"
+];
+
+names[2] = "raju";
+
+--------------------------------------
+
+Note - Array index start with 0
+
+const[0] = "volvo";
+const[1] = "BMW";
+
+--------------------------------------
+
+const cars = [
+            "BMW",
+            "Audi",
+            "Alto"
+        ];
+        document.getElementById("demo").innerHTML = cars;
+
+document.getElementById("demo").innerHTML = cars[0];
+
+--------------------------------------
+
+const person = [firstname:"john" , lastname:"Wood" , age:20];
+
+document.getElementById("demo").innerHTML = person.firstname;

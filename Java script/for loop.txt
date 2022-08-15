@@ -1,0 +1,22 @@
+statement1 > code > condition check hoti hai > ++a after , a++ before
+
+------------
+
+for(var a = 1; a < 4; a++){
+    document.write(a + " , ")
+}
+a = 1
+print 1
+a < 4 , 1 less than 4
+a = 2
+...................................
+a = 2
+print 2
+a < 4 , 2 less than 4
+a = 3
+...................................
+a = 3
+print 3
+a < 4 , 3 less than 4
+a = 4
+................................... 

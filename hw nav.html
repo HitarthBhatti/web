@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(125, 205, 214, 0.777);
+        }
+        .navbar li{
+            float: left;
+            padding: 10px;
+        }
+        .navbar{
+            border: 2px solid rgb(9, 244, 244);
+            background-color: rgb(99, 160, 190);
+            border-radius: 50px;
+            height: 80px;
+            position: fixed;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar ul li{
+            list-style: none;
+        }
+        .search input{
+         float: right;
+         margin: -41px 36px;
+        }
+        .form{
+            margin: 38px 13px;
+        }
+        .bts{
+            background-color: rgb(22, 75, 173);
+            color: aliceblue;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <nav>
+        <ul>
+          <li <a href="#">home</a></li>
+          <li <a href="#">profile</a></li>
+          <li <a href="#">contact us</a></li>
+          <li <a href="#">end</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="website" placeholder="Search a website">
+        </div>
+    </nav>
+    <div>
+        <form class="form">
+            <fieldset>
+                <legend>
+                    Sign up
+                </legend>
+                First name: <input type="text" name="First name" placeholder="Enter your name">
+                <br><br>
+                 Last name: <input type="text" name="Last name" placeholder="Enter your last name">
+                 <br><br>
+                 Enter your Phone No. : <input type="text" name="Phone No." placeholder="xxxxxxxx">
+                 <br><br>
+                 Enter Your Gender : <input type="radio" name="gender" value="male">Male
+                                     <input type="radio" name="gender" value="female">Female
+                                     <input type="radio" name="gender" value="Other">Other
+                 <br><br>
+                 Enter your Date Of Birth: <input type="date" name="Dob">
+                 <br><br>
+                  <input class="bts" type="button" value="Submit Button">
+                  <input class="bts" type="button" value="Reset Button">
+            </fieldset>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

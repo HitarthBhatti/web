@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only screen and ( min-width : 300px) and ( max-width : 500px){
+            body{
+                display: block;
+                background-color: aquamarine ;
+            }
+        }
+        .container{
+            display: grid;
+            grid-template-areas:
+            'header header header header header header'
+            'left middle middle middle aside aside'
+            'footer footer footer footer footer footer'
+            ;
+            
+        }
+        .card{
+            background-color: orange;
+            border: 2px solid white;
+            grid-row-gap: 5px;
+        }
+        #header{
+            grid-area: header;
+        }
+        #left{
+            grid-area: left;
+        }
+        #middle{
+            grid-area: middle;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="header">header</div>
+        <div class="card" id="left">left</div>
+        <div class="card" id="middle">middle</div>
+        <div class="card" id="aside">asider</div>
+        <div class="card" id="footer">footer</div>
+    </div>
+</body>
+</html>

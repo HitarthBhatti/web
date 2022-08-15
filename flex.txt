@@ -1,0 +1,5 @@
+flex-wrap: wrap-reverse
+justify-content: centre
+flex-direction: row
+flex-direction: column-reverse
+flex-direction: row-reverse
